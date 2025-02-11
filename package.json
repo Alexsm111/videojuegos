@@ -10,10 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "flowbite": "^2.2.1",
-    "flowbite-react": "^0.7.2",
+    "flowbite": "^2.5.2",
+    "flowbite-react": "^0.7.8",
     "localforage": "^1.10.0",
-    "match-sorter": "^6.3.1",
+    "match-sorter": "^6.4.0",
     "postcss": "^8.4.32",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
