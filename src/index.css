@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  color: rgb(202, 200, 200);
+}
+
+body {
+  background-color: #121212;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 3rem; /* Ampliar el espacio alrededor */
+  text-align: center;
+  background-color: #1f1f1f; /* Más oscuro para contraste */
+  border-radius: 1rem; /* Bordes más redondeados */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Agregar sombra para profundidad */
+  transition: all 0.3s ease-in-out; /* Animación suave al interactuar */
+}
+
+#root:hover {
+  transform: translateY(-10px); /* Efecto de desplazamiento cuando el contenedor se pasa el ratón */
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4); /* Sombra más pronunciada */
+}
+
+h1, h2, h3 {
+  color: #f5a623; /* Color llamativo para los títulos */
+  font-weight: bold;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4); /* Sombra suave en texto */
+  transition: all 0.3s ease; /* Transición suave */
+}
+
+h1:hover, h2:hover, h3:hover {
+  color: #ff6f00; /* Color más brillante en hover */
+}
+
+button {
+  padding: 0.8rem 2rem;
+  background-color: #ff6f00;
+  border: none;
+  border-radius: 9999px; /* Botón redondeado */
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #f57c00;
+  transform: translateY(-2px); /* Efecto de desplazamiento en hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.8rem;
+  transition: transform 0.3s ease;
+}
+
+.carousel-item img:hover {
+  transform: scale(1.05); /* Efecto de zoom suave al pasar el ratón */
+}
+
+.carousel-item h3 {
+  margin-top: 1rem;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+a {
+  text-decoration: none;
+  color: #ffcc00;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #ffc107;
+}
